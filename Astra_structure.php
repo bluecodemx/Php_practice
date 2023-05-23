@@ -14,12 +14,12 @@ $lIne = "----------------------------------------------";
 //ViEW head
 echo (cOmpany),("\n");
 echo (nUmber),("\n");
-echo $lIne;
+echo $lIne ,("\n");
 //Finish head Script
 
-//Start Script Bio data cashier
+//Variable Start Script Bio data cashier
 $bio_cashier =[
-    "no_id" => 2270,
+    "no_account" => 2270,
     "cashier" => [
         "pgw_01" => [
             "id" => 224,
@@ -42,3 +42,8 @@ $bio_cashier =[
     
     
 ];
+//Variable finish script bio cashier
+//Operation Start Bio_cashier
+echo "\t","No_Account: " ;
+echo ($bio_cashier["no_account"]) , "\n";
+echo $lIne , "\n" ;
