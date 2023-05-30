@@ -58,8 +58,8 @@ echo $Shift_Time, "\n", "\n";
 //List Item Buyer
 //Start Script list item client
 $list_item = [
-    "frst_item" => ["Knalpot","2 set","type2204"],
-    "scnd_item" => ["Oli Yamaha",1,"type44056"]
+    "frst_item" => ["Knalpot",2,"type2204"],
+    "scnd_item" => ["Oli Yamaha",3,"type44056"]
 ];
 // Memanggil elemen-elemen array
 $firstItem = $list_item["frst_item"];
@@ -72,7 +72,7 @@ $quantityFirstItem = $list_item["frst_item"][1];
 
 // Menampilkan nilai dari elemen-elemen array
 echo $nameFirstItem,"\t"; // Output: Knalpot
-echo $quantityFirstItem;//output quntity frst_item
+echo $quantityFirstItem,"\t","\t";//output quntity frst_item
 
 
 
