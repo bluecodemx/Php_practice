@@ -40,7 +40,7 @@ $bio_cashier =[
 
     ]
     
-    
+   
 ];
 //Variable finish script bio cashier
 //Operation Start Bio_cashier
