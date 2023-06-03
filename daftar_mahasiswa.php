@@ -10,7 +10,6 @@ $line ="-----------------------------------";
 $total=0;
 $daily_Point = 100;
 $absensi_Point = 70;
-
 $Total= $daily_Point+$absensi_Point;
 $result=$Total /(2) ;
 
@@ -24,5 +23,4 @@ echo "Semester: ";
 echo ($Semester[0]),"\n";
 echo $line,"\n";
 // 
-echo $result;
 
