@@ -23,3 +23,8 @@ echo ($hi), PHP_EOL;
 $Nilai = 7;
 $Hasil = $Nilai =="8" ? "Anda Lulus Dengan Nilai Terbaik" : "Anda Lulus" ;
 echo ($Hasil), PHP_EOL;
+
+// ternary Operator Practice
+$total_Donasi = 1000;
+$total = $total_Donasi == 4000 ? "Terimakasih banget" : "Terimakasih" ;
+echo ($total);
