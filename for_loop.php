@@ -4,10 +4,17 @@
 //     echo "ini adalah loop ke ($counter)" . PHP_EOL;
 // endfor;
 
-// // 
+//
 
 
 
-for ($number_1= 1 ;$number <=10 ; $number++):
-    echo "ini adalah angka $number". PHP_EOL;
+for ($number= 1 ;$number <=3 ; $number++):
+    echo "ini adalah angka ke - $number". PHP_EOL;
 endfor;
+
+
+$pasien = 1;
+while ($pasien <=10):
+    echo "pasien ke $pasien".PHP_EOL;
+    $pasien ++;
+endwhile;

@@ -1,9 +1,16 @@
 <?php
-function sayhello ()
-{
-    echo "Hello Function".PHP_EOL;
+// function sayhello ()
+// {
+//     echo "Hello Function".PHP_EOL;
 
+// }
+
+// sayhello().PHP_EOL;
+// sayhello().PHP_EOL;
+
+function name()
+{
+    echo "hallo yusuf";
 }
 
-sayhello().PHP_EOL;
-sayhello().PHP_EOL;
+name();
