@@ -6,7 +6,8 @@ function stockNumber (int $noBarang){
       endfor;
 
 }
+
 //START FUNCTION INDETITAS PRODUK
-function productIdentity (string $namaBarang){
+function productIdentity (string $namaBarang, string $expireDate){
 
 }
